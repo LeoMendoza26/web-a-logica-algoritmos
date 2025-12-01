@@ -41,10 +41,9 @@ const mostrarLista = () => {
   );
 };
 
-// --- Ejemplo de uso --- //
 agregarProducto("Manzanas");
 agregarProducto("Leche");
-agregarProducto("leche");   // Duplicado — lo bloquea
+agregarProducto("leche");
 agregarProducto("Arroz");
 
 mostrarLista();
